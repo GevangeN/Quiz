@@ -5,7 +5,7 @@
 <h4>
     <?php if (App\Utils\UserSession::isConnected()) : ?>
         <Div> Bonjour <?= \App\Utils\UserSession::getUser()->firstname ?>  <?= \App\Utils\UserSession::getUser()->lastname ?> </Div>
-        <Div> Pret à défier la team Rocket? </Div> 
+        <Div> Pret à défier le maitre des quiz? </Div> 
     <?php else : ?>
     <?php endif ?>
 
