@@ -1,0 +1,187 @@
+body {
+    font-family: Monospace, sans-serif;
+    background-color: #1A1C1F;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h1 {
+    font-size: 5em;
+    margin: 1rem 0 1rem;
+    color: #92D050;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 2.4em;
+    margin: 0.325rem 0 0.625rem;
+    font-weight: 600;
+    color: #92D050;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 0.325rem 0 0.75rem;
+    color: #92D050;
+    font-weight: 600
+}
+
+h4 {
+    font-size: 1.7em;
+    margin: 0.325rem 0 0.75rem;
+    color: #A8A8A8;
+}
+
+h6 {
+    margin-left: 4rem;
+    color: #A8A8A8;
+}
+p {
+    margin: 0.625rem 0;
+}
+
+a {
+    color: #92D050;
+}
+
+a:hover {
+    color: #A8A8A8;
+    text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.container {
+    margin: auto;
+    background-color: #1A1C1F;
+    padding: 0rem;
+    margin-top: 0rem;
+}
+
+.row {
+    display: flex;
+}
+
+.row > .col {
+    flex: 1;
+}
+
+.question {
+    margin: 0.625rem 1.25rem;
+}
+
+.question__question {
+    margin: 0.625rem 0;
+    font-weight: bold;
+}
+
+.question__info {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.question__choices {
+    margin: 0.625rem 0;
+}
+
+.btn {
+    display: block;
+    width: 155px;
+    margin: 0.625rem 0;
+    text-align: center;
+    color: #A8A8A8;
+    border: 1px solid #92D050;
+    background-color: #4C5259;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover {
+    color: #92D050;
+    text-decoration: none;
+}
+
+.tag {
+    width: 20rem;
+    margin: 0.2rem 0;
+    color: #A8A8A8;
+    border: 1px solid #92D050;
+    background-color: #4C5259;
+}
+
+.right {
+    position: sticky;
+    top:0rem;
+    bottom: 0rem;
+    height: calc(100vh - 0rem);
+    border-left: solid 1px #92D050;
+    background-color: #1A1C1F;
+}
+
+.titre {
+
+    height: 7rem;
+}
+
+.background {
+    background: url("../image/quiz.png") transparent center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 17%;
+    border: 1px solid #92D050;
+}
+
+.background_quiz {  
+    width: 100%;  
+    border: 1px solid #92D050;
+}
+
+.badge {
+    background-color: #92D050;
+    color: #1A1C1F;
+    margin-left: 1em;
+}
+
+.card-header {
+    background-color: #4C5259;
+    color: #1A1C1F;
+    margin: 0;
+}
+
+.card {
+    border: 2px solid #92D050;
+}
+
+.card-body {
+    background-color: #1A1C1F;
+    color: #A8A8A8;
+}
+
+.level {
+    font-size: 0.8em;
+}
+
+.level--Débutant {
+    background-color:  darkgreen;
+    color: #1A1C1F;
+}
+
+.level--Confirmé {
+    background-color: darkgoldenrod;
+    color: #1A1C1F;
+}
+
+.level--Expert {
+    background-color: darkred;
+    color: #1A1C1F;
+}
+
+.text-right {
+    color: #4C5259;
+}
+
+.sign, .profil {
+    color: #A8A8A8;
+}
