@@ -5,19 +5,19 @@
 <form class="col-md-6 mb-6 " action="<?= route('CreateUser')?>" method="post">
 
     <p class="row d-flex justify-content-center">
-        <label class="col-md-4" for="firstname">Prénom</label>
+        <label class="col-md-4 sign" for="firstname">Prénom</label>
         <input class="col-md-6 mb-6" type="text" name="firstname" id="firstname" required>
     </p>
     <p class="row d-flex justify-content-center">
-        <label class="col-md-4" for="lastname">Nom</label>
+        <label class="col-md-4 sign" for="lastname">Nom</label>
         <input class="col-md-6 mb-6" type="text" name="lastname" id="lastname" required>
     </p>
     <p class="row d-flex justify-content-center">
-        <label class="col-md-4" for="email">E-mail</label>
+        <label class="col-md-4 sign" for="email">E-mail</label>
         <input class="col-md-6 mb-6" type="email" name="email" id="email" required>
     </p>
     <p class="row d-flex justify-content-center">
-        <label class="col-md-4" for="password">Mot de passe</label>
+        <label class="col-md-4 sign" for="password">Mot de passe</label>
         <input class="col-md-6" type="password" name="password" id="password" required>
     </p>
     <p>
